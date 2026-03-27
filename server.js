@@ -21,6 +21,34 @@ app.get("/links", (req, res) => {
         name: "BBC Asian Network (Live)", 
         url: "https://www.bbc.co.uk/sounds/play/live/bbc_asian_network" 
       }
+    ],
+    software: [
+      { 
+        name: "Github", 
+        url: "https://github.com" 
+      },
+      { 
+        name: "Docker", 
+        url: "https://app.docker.com" 
+      },
+      { 
+        name: "Render", 
+        url: "https://render.com" 
+      },
+      { 
+        name: "Vercel", 
+        url: "https://vercel.com" 
+      }
+    ],
+    blogging: [
+      { 
+        name: "Hashnode", 
+        url: "https://hashnode.com" 
+      },
+      { 
+        name: "Medium", 
+        url: "https://medium.com" 
+      }
     ]
   });
 });
